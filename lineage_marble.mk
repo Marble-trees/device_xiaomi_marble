@@ -10,6 +10,11 @@ $(call inherit-product, device/xiaomi/marble/device.mk)
 # Inherit from common lineage configuration
 $(call inherit-product, vendor/lineage/config/common_full_phone.mk)
 
+#sign
+$(call inherit-product, vendor/lunaris-priv/keys/keys.mk)
+
+TARGET_SUPPORTED_REFRESH_RATES := 60,120
+
 WITH_GMS := true
 TARGET_BOOT_ANIMATION_RES := 1080
 TARGET_BUILD_APERTURE_CAMERA := false
