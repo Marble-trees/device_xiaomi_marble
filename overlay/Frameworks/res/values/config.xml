@@ -334,6 +334,9 @@
          accidental unlocks when the screen is off. -->
     <bool name="config_proximityCheckOnFpsUnlock">true</bool>
 
-    <!--Useful if you want to improve signal reception -->
+    <!-- Useful if you want to improve signal reception -->
     <bool name="config_ignoreRssnrSignalLevel">true</bool>
+
+    <!-- Preferred max refresh rate at AOD & Ambient Display, if supported by the display. -->
+    <integer name="config_aodMaxRefreshRate">60</integer>
 </resources>
