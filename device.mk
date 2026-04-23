@@ -34,6 +34,10 @@ PRODUCT_PACKAGES += \
 # Light
 $(call soong_config_set,xiaomi_sm8450_sensor_notifier,extension_lib,//device/xiaomi/marble:libsensor-notifier-ext-light)
 
+# Refresh Rate
+$(call soong_config_set,surfaceflinger,frame_rate_category_high,120)
+$(call soong_config_set,surfaceflinger,frame_rate_category_min,60)
+
 # Logging
 SPAMMY_LOG_TAGS := \
     MiStcImpl \
