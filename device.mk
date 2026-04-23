@@ -60,6 +60,7 @@ endif
 PRODUCT_PACKAGES += \
     FrameworksResMarble \
     NfcResMarble \
+    SettingsResMarble \
     SettingsProviderResMarble \
     SettingsProviderResMarbleCN \
     SystemUIResMarble \
